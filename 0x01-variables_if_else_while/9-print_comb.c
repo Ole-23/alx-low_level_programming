@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* betty style doc for functions with long descriptions */
 /**
  * main - Entry point, prints all possible combinations of single-digit numbers
  *
