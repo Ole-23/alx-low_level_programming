@@ -1,23 +1,23 @@
+/*
+ * File: 7-print_tebahpla.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
 
 /**
- * main - Entry point, prints lowercase alphabet in reverse
+ * main - Prints the lowercase alphabet in reverse.
  *
- * Description: Prints the lowercase alphabet in reverse order, followed by a newline.
- *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-    char letter = 'z';
+	char letter;
 
-    while (letter >= 'a')
-    {
-        putchar(letter);
-        letter--;
-    }
+	for (letter = 'z'; letter >= 'a'; letter--)
+		putchar(letter);
 
-    putchar('\n');
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
