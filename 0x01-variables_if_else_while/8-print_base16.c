@@ -3,6 +3,9 @@
 /**
  * main - Entry point, prints lowercase hexadecimal numbers
  *
+ * Description: Prints all the lowercase hexadecimal numbers (0-9 and a-f),
+ *              followed by a newline character.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
