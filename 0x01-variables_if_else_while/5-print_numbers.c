@@ -7,14 +7,15 @@
  */
 int main(void)
 {
-	int number = 0;
+    int number = 0;
 
-	while (number < 10)
-	{
-		putchar(number + '0');
-		putchar('\n');
-		number++;
-	}
+    while (number < 10)
+    {
+        putchar(number + '0');
+        number++;
+    }
 
-	return (0);
+    putchar('\n');
+
+    return (0);
 }
