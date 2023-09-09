@@ -1,21 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - Entry point, prints single-digit numbers in base 10
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succes)
  */
+
 int main(void)
 {
-	int number = '0';
+	int n;
 
-	while (number <= '9')
+	for (n = 0 ; n < 10 ; n++)
 	{
-		write(1, &number, 1);
-		number++;
+		putchar(n + '0');
 	}
-
-	write(1, "\n", 1);
-
+	putchar('\n');
 	return (0);
 }
