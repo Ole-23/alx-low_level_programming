@@ -1,25 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
+/**
+*main - function prints text as output
+*
+*Return:return 0
+*/
 int main(void)
 {
-    FILE *file;
-    int c;
+	char school[10] = "_putchar";
 
-    file = fopen("putchar", "r"); // Open the "putchar" file for reading
+	int i;
 
-    if (file == NULL)
-    {
-        perror("Error opening file");
-        return (1);
-    }
-
-    while ((c = fgetc(file)) != EOF)
-    {
-        _putchar(c); // Print each character from the file
-    }
-
-    fclose(file); // Close the file
-    _putchar('\n'); // Print a new line
-    return (0);
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(school[i]);
+	}
+	_putchar(10);
+	return (0);
 }
